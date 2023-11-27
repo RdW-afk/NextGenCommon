@@ -246,4 +246,10 @@
     <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/charging_enabled</string>
     <string name="config_SmartChargingSuspendValue" translatable="false">0</string>
     <string name="config_SmartChargingResumeValue" translatable="false">1</string>
+
+    <!-- Minimum velocity to initiate a fling, as measured in dips per second. -->
+    <dimen name="config_viewMinFlingVelocity">70dp</dimen>
+
+    <!-- Maximum velocity to initiate a fling, as measured in dips per second. -->
+    <dimen name="config_viewMaxFlingVelocity">21000dp</dimen>
 </resources>
