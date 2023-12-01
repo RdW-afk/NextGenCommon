@@ -2,9 +2,6 @@
 # system.prop for sdm660
 #
 
-# AutoSingleLayer mode settings
-debug.sf.auto_latch_unsignaled=true
-
 # Bluetooth
 bt.max.hfpclient.connections=1
 vendor.bluetooth.soc=cherokee
@@ -33,10 +30,6 @@ persist.vendor.overlay.izat.optin=rro
 
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
-
-# Fling velocity
-ro.min.fling_velocity=70
-ro.max.fling_velocity=21000
 
 # Graphics
 dev.pm.dyn_samplingrate=1
